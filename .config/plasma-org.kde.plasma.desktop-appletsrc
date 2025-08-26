@@ -14,10 +14,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][23][Applets][27]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
 [Containments][23][Applets][28]
 activityId=
 formfactor=2
@@ -99,14 +95,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][23][Applets][28][Applets][40][Configuration]
-PreloadWeight=46
+PreloadWeight=22
 
 [Containments][23][Applets][28][Applets][41]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][23][Applets][28][Applets][41][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][23][Applets][28][Applets][42]
 immutability=1
@@ -120,7 +116,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][23][Applets][28][Applets][43][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][23][Applets][28][Applets][44]
 immutability=1
@@ -149,7 +145,6 @@ popupWidth=560
 [Containments][23][Applets][38][Configuration][Appearance]
 autoFontAndSize=false
 boldText=true
-dateDisplayFormat=BesideTime
 fontFamily=JetBrainsMono Nerd Font
 fontSize=8
 fontStyleName=Bold
@@ -174,6 +169,8 @@ DialogWidth=720
 
 [Containments][23][Applets][57][Configuration][General]
 favoritesPortedToKAstats=true
+icon=org.kde.archUpdate
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][23][Applets][60]
 immutability=1
@@ -195,8 +192,17 @@ middleClickAction=None
 showOnlyCurrentScreen=true
 taskMaxWidth=Narrow
 
+[Containments][23][Applets][64]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
 [Containments][23][General]
-AppletOrder=57;27;63;60;28;38
+AppletOrder=57;64;63;60;28;38
+
+[Containments][4][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/cachyos-wallpapers/north.png
+PreviewImage=/usr/share/wallpapers/cachyos-wallpapers/north.png
+SlidePaths=/usr/share/wallpapers/
 
 [Containments][40]
 ItemGeometries-1536x864=
@@ -212,6 +218,10 @@ wallpaperplugin=org.kde.image
 
 [Containments][40][General]
 positions={"1536x864":[],"1920x1080":[]}
+
+[Containments][40][Wallpaper][org.kde.image][General]
+Image=$HOME/Pictures/wallpaper.png
+SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=

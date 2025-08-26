@@ -1,3 +1,5 @@
+MenuBar=Disabled
+
 [Desktop Entry]
 DefaultProfile=DUT.profile
 
@@ -6,6 +8,7 @@ ConfigVersion=1
 
 [KonsoleWindow]
 ShowWindowTitleOnTitleBar=true
+UseSingleInstance=true
 
 [UiSettings]
 ColorScheme=
