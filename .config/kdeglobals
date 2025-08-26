@@ -21,13 +21,13 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=137,180,250
+BackgroundAlternate=243,139,168
 BackgroundNormal=49, 50, 68
-DecorationFocus=137,180,250
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -37,11 +37,11 @@ ForegroundVisited=203, 166, 247
 [Colors:Complementary]
 BackgroundAlternate=17, 17, 27
 BackgroundNormal=24, 24, 37
-DecorationFocus=137,180,250
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -51,11 +51,11 @@ ForegroundVisited=203, 166, 247
 [Colors:Header]
 BackgroundAlternate=17, 17, 27
 BackgroundNormal=24, 24, 37
-DecorationFocus=137,180,250
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -63,13 +63,13 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [Colors:Selection]
-BackgroundAlternate=137,180,250
-BackgroundNormal=137,180,250
-DecorationFocus=137,180,250
+BackgroundAlternate=243,139,168
+BackgroundNormal=243,139,168
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=24, 24, 37
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=17, 17, 27
@@ -79,11 +79,11 @@ ForegroundVisited=203, 166, 247
 [Colors:Tooltip]
 BackgroundAlternate=27,25,35
 BackgroundNormal=30, 30, 46
-DecorationFocus=137,180,250
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -93,11 +93,11 @@ ForegroundVisited=203, 166, 247
 [Colors:View]
 BackgroundAlternate=24, 24, 37
 BackgroundNormal=30, 30, 46
-DecorationFocus=137,180,250
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
@@ -107,20 +107,24 @@ ForegroundVisited=203, 166, 247
 [Colors:Window]
 BackgroundAlternate=17, 17, 27
 BackgroundNormal=24, 24, 37
-DecorationFocus=137,180,250
+DecorationFocus=243,139,168
 DecorationHover=49, 50, 68
 ForegroundActive=250, 179, 135
 ForegroundInactive=166, 173, 200
-ForegroundLink=137,180,250
+ForegroundLink=243,139,168
 ForegroundNegative=243, 139, 168
 ForegroundNeutral=249, 226, 175
 ForegroundNormal=205, 214, 244
 ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
+[DirSelect Dialog]
+DirSelectDialog Size=820,568
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
 [General]
-ColorScheme=CatppuccinMochaBlue
-ColorSchemeHash=1e791a601596b04821e81de9e9f6f2c50005d730
+ColorScheme=CatppuccinMochaRed
+ColorSchemeHash=318898541a271af612b5ed5ec1c5661d725d0f16
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -131,7 +135,7 @@ Theme=Papirus-Dark
 
 [KDE]
 AnimationDurationFactor=0.25
-widgetStyle=Darkly
+widgetStyle=kvantum
 
 [KFileDialog Settings]
 Allow Expansion=false
