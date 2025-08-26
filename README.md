@@ -27,6 +27,7 @@
 - `papirus-icon-theme`
 - `ttf-jetbrains-mono-nerd`
 - `kvantum`
+- `starship`
 
 ## AUR
 

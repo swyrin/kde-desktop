@@ -9,3 +9,4 @@ if test -f ~/.fish_profile
   source ~/.fish_profile
 end
 
+starship init fish | source
